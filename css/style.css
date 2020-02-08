@@ -859,14 +859,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Facts Section
 --------------------------------*/
 
-#facts {
+#about {
   background: url("../img/facts-bg.jpg") center top no-repeat fixed;
   background-size: cover;
   padding: 60px 0 0 0;
   position: relative;
 }
 
-#facts::before {
+#about::before {
   content: '';
   position: absolute;
   left: 0;
@@ -877,12 +877,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   z-index: 9;
 }
 
-#facts .container {
+#about .container {
   position: relative;
   z-index: 10;
 }
 
-#facts .counters .inc-counter {
+#about .counters .inc-counter {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 48px;
@@ -890,16 +890,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #18d26e;
 }
 
-#facts .counters p {
+#about .counters p {
   padding: 0;
   margin: 0 0 20px 0;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   color: #111;
-  font-weight: 500;
+  font-weight: 800;
 }
 
-#facts .facts-img {
+#about .facts-img {
   text-align: center;
   padding-top: 30px;
 }
