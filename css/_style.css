@@ -1648,7 +1648,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro .carousel-item{height: 500px;} 
 }
 @media screen and (max-width: 540px){
-#header{position: static;top: 0px;background-color: #000;height: 76px !important;}
+#header{position: static;top: 0px;background-color: #000;height: 92px !important;}
 #mobile-nav-toggle{position: absolute;}
 
  #intro,
@@ -1665,5 +1665,5 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer .footer-top .footer-info h3 img, #header #logo h1 a img{ top: -8px;}
 
  #intro,
-#intro .carousel-item{height:254px;} 
+#intro .carousel-item{height:320px;} 
 }

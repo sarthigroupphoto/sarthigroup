@@ -1,0 +1,5 @@
+git remote add origin https://github.com/sarthigroupphoto/sarthigroup.git
+git init
+git commit - "save" .
+git status
+git push -u origin master
