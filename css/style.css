@@ -1052,7 +1052,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .upcoming-wrap figure:hover .link-preview,
 #other-activity .portfolio-item figure:hover .link-preview {
   opacity: 1;
-  left: calc(50% - 44px);
+  left: calc(50% - 20px);
 }
 
 .upcoming-wrap figure:hover .link-details
