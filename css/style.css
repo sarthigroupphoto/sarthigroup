@@ -1039,7 +1039,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .upcoming-wrap figure .link-preview,
 #other-activity .portfolio-item figure .link-preview {
-  left: calc(50% - 38px);
+  left: calc(50% - 18px);
   top: calc(50% - 18px);
 }
 
@@ -1052,13 +1052,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 .upcoming-wrap figure:hover .link-preview,
 #other-activity .portfolio-item figure:hover .link-preview {
   opacity: 1;
-  left: calc(50% - 20px);
+  left: calc(50% - 18px);
 }
 
 .upcoming-wrap figure:hover .link-details
 #other-activity .portfolio-item figure:hover .link-details {
   opacity: 1;
-  right: calc(50% - 44px);
+  right: calc(50% - 18px);
 }
 
 #other-activity .portfolio-item .portfolio-info {
@@ -1630,6 +1630,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro .carousel-item{height: 767px;}
 }
 
+@media screen and (max-width: 1080px){
+#header #logo{padding-left: 30px;}
+#nav-menu-container{padding-right:30px;}
+}
+@media screen and (min-width: 800px) and (max-width: 991px){
+#header #logo h1{font-size: 22px;letter-spacing: 2px;}
+#header #logo h1 a img{height: 48px;width: 48px;left: -60px;top: -8px;}
+#header #logo{padding-left:0px;margin-top: 8px;}
+#nav-menu-container{padding-right:0px;}
+.nav-menu a{padding:0px 6px 10px 6px;}
+.nav-menu > li{margin-left: 5px;}
+#header #logo h1 a, #header #logo h1 a:hover{margin-left: 60px;}
+}
 @media screen and (max-width: 1024px){
 #intro,
 #intro .carousel-item{height:600px;}
